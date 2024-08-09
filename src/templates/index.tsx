@@ -23,9 +23,9 @@ import Hero from "../components/location/Hero";
 
 export const config: TemplateConfig = {
   stream: {
-    $id: "location",
+    $id: "location-stream",
     filter: {
-      entityIds: [],
+      entityIds: ["location"],
     },
     fields: [
       "id",
